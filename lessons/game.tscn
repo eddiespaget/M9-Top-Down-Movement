@@ -13,9 +13,11 @@ z_index = -1
 texture = ExtResource("1_4o7yg")
 
 [node name="Runner" parent="." instance=ExtResource("1_yasw7")]
+z_index = 1
 position = Vector2(560, 276)
 
 [node name="SimpleObstacle" parent="." instance=ExtResource("2_4o7yg")]
+z_index = 1
 position = Vector2(22, -222)
 
 [node name="Circuit" parent="." instance=ExtResource("3_4o7yg")]
