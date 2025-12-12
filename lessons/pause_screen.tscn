@@ -31,9 +31,9 @@ PanelContainer/styles/panel = SubResource("StyleBoxFlat_okwwg")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_8c4bg"]
 shader = ExtResource("2_vtnhc")
-shader_parameter/blur_amount = 6.68400031749
+shader_parameter/blur_amount = 0.0
 shader_parameter/tint = Color(0, 0, 0, 1)
-shader_parameter/tint_strength = 0.3050000144875
+shader_parameter/tint_strength = 0.0
 shader_parameter/saturation = 0.6950000330125
 
 [node name="PauseScreen" type="Control"]
@@ -45,6 +45,8 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_jtw2t")
 script = ExtResource("2_qb0gi")
+animation_duration = null
+menu_opened_amount = 1.0
 
 [node name="BlurColorRect" type="ColorRect" parent="."]
 unique_name_in_owner = true
