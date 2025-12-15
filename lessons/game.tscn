@@ -15,6 +15,7 @@ y_sort_enabled = true
 script = ExtResource("1_48faf")
 
 [node name="Circuit Background" type="Sprite2D" parent="."]
+process_mode = 3
 z_index = -1
 texture = ExtResource("1_4o7yg")
 
@@ -28,10 +29,12 @@ z_index = 1
 position = Vector2(22, -222)
 
 [node name="Circuit" parent="." instance=ExtResource("3_4o7yg")]
+process_mode = 3
 position = Vector2(2, 19)
 
 [node name="FinishLine" parent="." instance=ExtResource("5_sepuf")]
 unique_name_in_owner = true
+process_mode = 3
 position = Vector2(-1343, -196)
 area_width = 256
 
@@ -39,7 +42,7 @@ area_width = 256
 
 [node name="CountDown" type="Label" parent="CanvasLayer"]
 unique_name_in_owner = true
-visible = false
+process_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -58,4 +61,6 @@ script = ExtResource("8_tpjcj")
 metadata/_custom_type_script = "uid://57e8080cpukf"
 
 [node name="PauseScreen" parent="CanvasLayer" instance=ExtResource("9_tpjcj")]
+process_mode = 3
+visible = false
 menu_opened_amount = 0.0
